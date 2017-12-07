@@ -43,6 +43,8 @@ namespace desafios.model.repositorio
 
         #endregion
 
+        #region Métodos Públicos
+
         public void criar(Processo processo)
         {
             processos.Add(processo);   
@@ -111,5 +113,8 @@ namespace desafios.model.repositorio
 
             return numeroProcessos;
         }
+
+        #endregion
+
     }
 }
